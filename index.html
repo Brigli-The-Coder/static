@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referuesi: Brigli Bushati</title>
+
+    <link rel="shortcut icon"
+        href="https://raw.githubusercontent.com/Brigli-The-Coder/Projects-Files/refs/heads/main/bushati.png"
+        type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Set up video background */
+        .video-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 100vw;
+            object-fit: cover;
+            /* Cover entire screen */
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        /* Optional: add a dark overlay if needed */
+        .video-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.4);
+            /* darken video for better text contrast */
+            z-index: 0;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            position: relative;
+            z-index: 1;
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+            padding: 40px 20px;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 800px;
+            margin: auto;
+            margin-bottom: 30px;
+            color: white;
+        }
+
+        h2 {
+            color: white;
+        }
+
+        .hero h1 {
+            margin-top: 50px;
+            font-family: cursive;
+        }
+
+        .hero p {
+            margin-bottom: 50px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .hero img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 30px;
+        }
+
+        table {
+            word-break: break-word;
+        }
+
+        @media print {
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Background Video -->
+    <video autoplay muted loop playsinline class="video-bg">
+        <source src="./283431_jIuggOxo (1) (1).mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Main content -->
+    <div class="content">
+        <div class="hero text-center">
+            <img src="https://raw.githubusercontent.com/Brigli-The-Coder/Projects-Files/refs/heads/main/Logopit_1749901863202.png"
+                alt="Logo">
+            <p>Ky invoice është personalisht për juve!</p>
+        </div>
+
+        <div class="container">
+            <h2>Invoice për Brigli Bushati</h2>
+
+            <p><strong>Tel:</strong> +355694538437 <br> <strong>Email:</strong> bushatibrigli@gmail.com</p>
+
+            <div style="overflow-x: auto;">
+                <table class="table table-bordered table-striped table-info">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Shuma e paguar nga<br>klienti që sollët</th>
+                            <th>Përshkrimi</th>
+                            <th>Shpërblimi 15%</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>15000 Lek(Shembull i totalit të paguar nga klienti)</td>
+                            <td>Këtu është përshkrimi përreth klientit që sollët</td>
+                            <td>Këtu është % e shumës totale që klienti ka paguar.</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2" class="fw-bold text-end">Totali i Shpërblimeve:</td>
+                            <td class="fw-bold">Totali i të gjitha %-jeve</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <h4 class="small text-start">
+                Për çdo klient që keni sjellë tek neve, ju merrni si shpërblim 15% të shumës që ai/ajo paguan.
+                <br>Ne do ju kontaktojmë në fund të muajit për të marrë shpërblimet që keni bërë gjatë muajit!
+                <br><br>
+                <span class="d-block text-end">Faleminderit,<br>Bushati Dresses!</span>
+            </h4>
+        </div>
+
+        <div class="text-center no-print">
+            <hr>
+            <p>Nëse doni të dini se çfarë bëjmë ne, mund të klikoni më poshtë!</p>
+            <a href="https://bushati-dresses.website/weDo/" class="btn btn-outline-primary w-50 mb-5"
+                target="_blank">Kliko këtu</a>
+            <hr>
+            <p>Doni të dini rregullat e programit të referimit?</p>
+            <a href="https://bushati-dresses.website/rules" class="btn btn-outline-success w-50 mb-5"
+                target="_blank">Kliko këtu</a>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
